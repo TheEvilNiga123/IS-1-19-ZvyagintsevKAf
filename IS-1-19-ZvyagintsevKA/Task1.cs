@@ -60,8 +60,6 @@ namespace IS_1_19_ZvyagintsevKA
                 L.Items.Add($"Количество ядер - {Numb_Cor}");
                 L.Items.Add($"Количество потоков - {Numb_th}");
             }
-
-
         }
         class Videocard<ABA> : Complectuishie<ABA> //дочерний класс 
 
@@ -93,8 +91,6 @@ namespace IS_1_19_ZvyagintsevKA
                 L.Items.Add($"Производитель - {Maker}");
                 L.Items.Add($"Объём памяти - {Memory}");
             }
-
-
         }
         public Task1()
         {
@@ -127,7 +123,5 @@ namespace IS_1_19_ZvyagintsevKA
             Videocard<int> vid = new Videocard<int>(t1, t2, t3, t4, t5, t6);
             vid.DisplayInfo(listBox1); // Метод класса выводит информацию об экземпляре в ListBox1
         }
-
-
     }
 }

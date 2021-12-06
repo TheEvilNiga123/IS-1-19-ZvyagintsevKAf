@@ -42,8 +42,7 @@ namespace IS_1_19_ZvyagintsevKA
             finally
             {
                 connect.Close(); //Закрыть соединение
-            }
-            
+            }   
         }
         string id_rows = "0";
 
@@ -63,9 +62,7 @@ namespace IS_1_19_ZvyagintsevKA
                 id_rows = dataGridView1.Rows[Convert.ToInt32(index_rows)].Cells[1].Value.ToString(); //Замена
                 MessageBox.Show(id_rows);
             }
-        }
-
-        
+        }      
     }
    
 }
