@@ -33,7 +33,7 @@ namespace IS_1_19_ZvyagintsevKA
                 DataSet dataset = new DataSet(); // Создание таблицы
 
                 IDataAdapter.Fill(dataset); //Заполнение таблицы
-                dataGridView1.DataSource = dataset.Tables[0]; //Передача таблицы в dataGridView1
+                dataGridView1.DataSource = dataset.Tables[0]; //Передача таблицы в dataGridView1                  "4343434343"
             }
             catch
             {
