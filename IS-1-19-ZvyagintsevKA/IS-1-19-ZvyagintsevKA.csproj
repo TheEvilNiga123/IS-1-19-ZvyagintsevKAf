@@ -52,7 +52,8 @@
     <StartupObject />
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="ConnectDB">
+    <Reference Include="ConnectDB, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>E:\ConnectDB.dll</HintPath>
     </Reference>
     <Reference Include="MySql.Data">
