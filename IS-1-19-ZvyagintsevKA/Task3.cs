@@ -17,7 +17,7 @@ namespace IS_1_19_ZvyagintsevKA
         {
             InitializeComponent();
         }
-        //Метод  отвечающий за загрузку формы
+        //Метод  отвечающий за загрузку формы ..
         private void Task3_Load(object sender, EventArgs e)
         {
             //Создание экземпляра класса
