@@ -7,8 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient; //Подключили библиотеку MySQL(Привязанную по ссылке)
-using ConnectDB; //Добавили свою библиотеку с классом из другого проекта(Привязанную по ссылке) 
+using MySql.Data.MySqlClient;    //Подключили библиотеку MySQL(Привязанную по ссылке)
+using ConnectDB;                 //Добавили свою библиотеку с классом из другого проекта(Привязанную по ссылке) 
 namespace IS_1_19_ZvyagintsevKA
 {
     public partial class Task4 : Form
