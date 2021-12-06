@@ -27,8 +27,10 @@ namespace IS_1_19_ZvyagintsevKA
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Hide(); // прячет форму №1
             Task2 zadanie2 = new Task2(); // переход на форму №3 (Задание 2)
             zadanie2.ShowDialog();
+            Close(); // закрывает все формы
         }
 
         private void button3_Click(object sender, EventArgs e)
