@@ -23,7 +23,7 @@ namespace IS_1_19_ZvyagintsevKA
             //Создание экземпляра класса
             ConnectorPcs conn = new ConnectorPcs();
             MySqlConnection connect = new MySqlConnection(conn.connectM); //Создание и инициализация соединение с DB со строкой соединения из экземпляра conn
-            string sql = $"SELECT id, fio, theme_kurs FROM t_stud";  // Запрос SQL на вывод информации из t_stud
+            string sql = $"SELECT id, fio, theme_kurs FROM t_stud";  // Запрос SQL на вывод информации из t_stud ..
             try
             {
                 connect.Open(); //Открываем соединение 
